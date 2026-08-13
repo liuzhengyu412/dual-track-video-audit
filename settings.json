@@ -1,0 +1,25 @@
+{
+  "_start_here": "这里是项目级开关。普通用户通常只需设置模式、规则分流和话术比对；模型和 API Key 请在 .env 中设置。",
+  "mode": "simple",
+  "default_scenario": "example_review",
+  "rule_routing": "ai",
+  "routing_failure_strategy": "fallback_both",
+  "script_comparison": {
+    "enabled": false
+  },
+  "speaker_roles": ["staff", "customer", "unknown"],
+  "limits": {
+    "max_transcript_characters": 60000
+  },
+  "processing": {
+    "fps": 2.0,
+    "audio_chunk_seconds": 180,
+    "confidence_threshold": 0.7,
+    "max_video_size_mb": 100,
+    "keep_work_files": false
+  },
+  "output": {
+    "include_transcript": true,
+    "create_empty_script_sheet": false
+  }
+}

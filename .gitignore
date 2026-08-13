@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+work/
+results/*.json
+results/*.xlsx
+results/.DS_Store
+*.mp4
+*.mov
+*.avi
+*.mkv

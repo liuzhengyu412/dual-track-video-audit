@@ -1,0 +1,16 @@
+{
+  "_start_here": "审核要求、场景和话术配置。模式开关在项目根目录 settings.json；默认情况下只填写 review_brief.md 与 scripts/example_review.md。",
+  "review_brief": "review_brief.md",
+  "scenarios": {
+    "example_review": {
+      "name": "默认场景",
+      "script": "scripts/example_review.md"
+    }
+  },
+  "prompts": {
+    "visual": "../prompts/visual_review.md",
+    "audio": "../prompts/audio_review.md",
+    "routing": "../prompts/rule_routing.md"
+  },
+  "local_validators": {}
+}
